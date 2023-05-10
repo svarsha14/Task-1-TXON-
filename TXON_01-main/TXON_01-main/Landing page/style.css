@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+        min-height: 100vh;
+        background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("put.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float:mid;
+    line-height: 70x;
+    letter-spacing: 50px;
+    font-size: 75px;
+    font-size:inline;
+    color:whitesmoke ;
+    text-align: center;
+} 
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    text-align: right;
+    margin-right: auto;
+
+}
+nav ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: radius 5px; 
+}
+nav ul li a:hover{
+    background-color:grey;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: rgb(76, 43, 226);
+
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25);
+
+
+}
+.article h1{
+    font-size: 45px;
+    color: grey;
+    letter-spacing: 4px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.article h2{
+    font-size: 20px;
+    color:rgba(255, 55, 0, 0.899);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom:  20px;
+}
+
+
+.article p{
+    font-size: 40px;
+    color: whitesmoke;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: whitesmoke;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(20, 75, 255);
+}
+.article .btn:hover{
+    background-color:grey;
+    transition: 0.5s ease;
+}
+footer{
+    background: #ffffff00;
+    height: auto;
+    width: 100vw;
+    font-family: 'Baloo 2', cursive;
+    padding: top 70px;
+    color: #fff;
+    justify-content: center;
+}
+
+.footer-content{
+   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    align-content: center;
+    
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: aliceblue;
+    
+}
+
+
+
+
+.footer-bottom{
+    background: #33333300;
+    width: 100vw;
+    padding: 60px 0;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.footer-bottom p{
+    font-size: 20px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
